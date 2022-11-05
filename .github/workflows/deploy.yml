@@ -30,6 +30,11 @@ jobs:
       - name: Build site
         run: yarn build
 
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: 'dist'
+
   deploy:
     timeout-minutes: 2
     needs: build
