@@ -1,0 +1,19 @@
+{
+  "name": "mvdsvdocs",
+  "version": "0.1.0",
+  "description": "mvdsv docs",
+  "repository": "git@github.com:vikpe/mvddocs.git",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.27",
+    "vue": "^3.2.41"
+  },
+  "dependencies": {
+    "marked": "^4.2.2"
+  }
+}
