@@ -1,0 +1,1143 @@
+[
+  {
+    "name": "sv_www_address",
+    "default_value": "",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_www_authkey",
+    "default_value": "",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_www_checkin_period",
+    "default_value": "60",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "r_draworder",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "screensize",
+    "default_value": "1",
+    "flags": "CVAR_ARCHIVE",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "fs_cache",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_local_addr",
+    "default_value": "",
+    "flags": "CVAR_ROM",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "showpackets",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "showdrop",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "qport",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_progtype",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_pr2references",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_progsname",
+    "default_value": "qwprogs",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_forcenqprogs",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_cheats",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_demoUseCache",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_demoCacheSize",
+    "default_value": "0",
+    "flags": "CVAR_ROM",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_demoMaxDirSize",
+    "default_value": "102400",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_demoClearOld",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_demoDir",
+    "default_value": "demos",
+    "flags": "0",
+    "on_change": "sv_demoDir_OnChange",
+    "description": ""
+  },
+  {
+    "name": "sv_demoDirAlt",
+    "default_value": "",
+    "flags": "0",
+    "on_change": "sv_demoDir_OnChange",
+    "description": ""
+  },
+  {
+    "name": "sv_demofps",
+    "default_value": "30",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_demoIdlefps",
+    "default_value": "10",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_demopings",
+    "default_value": "3",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_demoMaxSize",
+    "default_value": "20480",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_demoExtraNames",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_demoPrefix",
+    "default_value": "",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_demoSuffix",
+    "default_value": "",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_demotxt",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_onRecordFinish",
+    "default_value": "",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_onDemoRemove",
+    "default_value": "",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_demoRegexp",
+    "default_value": "\\\\.mvd(\\\\.(gz|bz2|rar|zip))?$",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_silentrecord",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "extralogname",
+    "default_value": "unset",
+    "flags": "",
+    "on_change": "",
+    "description": "no sv_ prefix? WTF!"
+  },
+  {
+    "name": "qtv_streamport",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "qtv_maxstreams",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "qtv_password",
+    "default_value": "",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "qtv_pendingtimeout",
+    "default_value": "5",
+    "flags": "",
+    "on_change": "",
+    "description": "5  seconds must be enough"
+  },
+  {
+    "name": "qtv_sayenabled",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": "allow mod to override GameStarted() logic"
+  },
+  {
+    "name": "qtv_streamtimeout",
+    "default_value": "45",
+    "flags": "",
+    "on_change": "",
+    "description": "45 seconds"
+  },
+  {
+    "name": "sv_nailhack",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_login",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": "if enabled, login required"
+  },
+  {
+    "name": "sv_login_web",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": "0=local files, 1=auth via website (bans can be in local files), 2=mandatory auth (must have account in local files)"
+  },
+  {
+    "name": "sv_mintic",
+    "default_value": "0.013",
+    "flags": "",
+    "on_change": "",
+    "description": "bound the size of the"
+  },
+  {
+    "name": "sv_maxtic",
+    "default_value": "0.1",
+    "flags": "",
+    "on_change": "",
+    "description": "physics time tic"
+  },
+  {
+    "name": "maxfps",
+    "default_value": "77",
+    "flags": "CVAR_SERVERINFO",
+    "on_change": "",
+    "description": "It actually should be called maxpps (max packets per second)."
+  },
+  {
+    "name": "sys_select_timeout",
+    "default_value": "10000",
+    "flags": "0",
+    "on_change": "OnChange_sysselecttimeout_var",
+    "description": "microseconds."
+  },
+  {
+    "name": "sys_restart_on_error",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_mod_extensions",
+    "default_value": "2",
+    "flags": "CVAR_ROM",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sys_simulation",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "developer",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": "show extra messages"
+  },
+  {
+    "name": "version",
+    "default_value": "",
+    "flags": "CVAR_ROM",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "timeout",
+    "default_value": "65",
+    "flags": "",
+    "on_change": "",
+    "description": "seconds without any message"
+  },
+  {
+    "name": "zombietime",
+    "default_value": "2",
+    "flags": "",
+    "on_change": "",
+    "description": "seconds to sink messages"
+  },
+  {
+    "name": "rcon_password",
+    "default_value": "",
+    "flags": "",
+    "on_change": "",
+    "description": "password for remote server commands"
+  },
+  {
+    "name": "password",
+    "default_value": "",
+    "flags": "",
+    "on_change": "",
+    "description": "password for entering the game"
+  },
+  {
+    "name": "sv_hashpasswords",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": "0 - plain passwords; 1 - hashed passwords"
+  },
+  {
+    "name": "sv_crypt_rcon",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": "use SHA1 for encryption of rcon_password and using timestamps"
+  },
+  {
+    "name": "sv_timestamplen",
+    "default_value": "60",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_rconlim",
+    "default_value": "10",
+    "flags": "",
+    "on_change": "",
+    "description": "rcon bandwith limit: requests per second"
+  },
+  {
+    "name": "telnet_log_level",
+    "default_value": "0",
+    "flags": "0",
+    "on_change": "OnChange_telnetloglevel_var",
+    "description": ""
+  },
+  {
+    "name": "frag_log_type",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "qconsole_log_say",
+    "default_value": "0",
+    "flags": "0",
+    "on_change": "OnChange_qconsolelogsay_var",
+    "description": ""
+  },
+  {
+    "name": "sys_command_line",
+    "default_value": "",
+    "flags": "CVAR_ROM",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_use_dns",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": "1 - use DNS lookup in status command, 0 - don't use"
+  },
+  {
+    "name": "spectator_password",
+    "default_value": "",
+    "flags": "",
+    "on_change": "",
+    "description": "password for entering as a sepctator"
+  },
+  {
+    "name": "vip_password",
+    "default_value": "",
+    "flags": "",
+    "on_change": "",
+    "description": "password for entering as a VIP sepctator"
+  },
+  {
+    "name": "vip_values",
+    "default_value": "",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "allow_download",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "allow_download_skins",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "allow_download_models",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "allow_download_sounds",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "allow_download_maps",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "allow_download_pakmaps",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "allow_download_demos",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "allow_download_other",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "download_map_url",
+    "default_value": "",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_specprint",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_reconnectlimit",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_admininfo",
+    "default_value": "",
+    "flags": "0",
+    "on_change": "OnChange_admininfo_var",
+    "description": ""
+  },
+  {
+    "name": "sv_unfake",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": "bliP: 24/9 kickfake to unfake"
+  },
+  {
+    "name": "sv_kicktop",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_allowlastscores",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_maxlogsize",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_logdir",
+    "default_value": ".",
+    "flags": "0",
+    "on_change": "OnChange_logdir_var",
+    "description": ""
+  },
+  {
+    "name": "sv_speedcheck",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_phs",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "pausable",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_maxrate",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_getrealip",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_serverip",
+    "default_value": "",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_forcespec_onfull",
+    "default_value": "2",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_maxdownloadrate",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_loadentfiles",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": "loads .ent files by default if there"
+  },
+  {
+    "name": "sv_loadentfiles_dir",
+    "default_value": "",
+    "flags": "",
+    "on_change": "",
+    "description": "check for .ent file in maps/sv_loadentfiles_dir first then just maps/"
+  },
+  {
+    "name": "sv_default_name",
+    "default_value": "unnamed",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_mod_msg_file",
+    "default_value": "",
+    "flags": "CVAR_NONE",
+    "on_change": "sv_mod_msg_file_OnChange",
+    "description": ""
+  },
+  {
+    "name": "sv_reliable_sound",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "fraglimit",
+    "default_value": "0",
+    "flags": "CVAR_SERVERINFO",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "timelimit",
+    "default_value": "0",
+    "flags": "CVAR_SERVERINFO",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "teamplay",
+    "default_value": "0",
+    "flags": "CVAR_SERVERINFO",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "maxclients",
+    "default_value": "24",
+    "flags": "CVAR_SERVERINFO",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "maxspectators",
+    "default_value": "8",
+    "flags": "CVAR_SERVERINFO",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "deathmatch",
+    "default_value": "3",
+    "flags": "CVAR_SERVERINFO",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "watervis",
+    "default_value": "0",
+    "flags": "CVAR_SERVERINFO",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "serverdemo",
+    "default_value": "",
+    "flags": "CVAR_SERVERINFO | CVAR_ROM",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "samelevel",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": "dont delete this variable - it used by mods"
+  },
+  {
+    "name": "skill",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": "dont delete this variable - it used by mods"
+  },
+  {
+    "name": "coop",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": "dont delete this variable - it used by mods"
+  },
+  {
+    "name": "sv_paused",
+    "default_value": "0",
+    "flags": "CVAR_ROM",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "hostname",
+    "default_value": "unnamed",
+    "flags": "CVAR_SERVERINFO",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_forcenick",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": "0 - don't force; 1 - as login;"
+  },
+  {
+    "name": "sv_registrationinfo",
+    "default_value": "",
+    "flags": "",
+    "on_change": "",
+    "description": "text shown before \"enter login\""
+  },
+  {
+    "name": "registered",
+    "default_value": "1",
+    "flags": "CVAR_ROM",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "halflifebsp",
+    "default_value": "0",
+    "flags": "CVAR_ROM",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_bspversion",
+    "default_value": "1",
+    "flags": "CVAR_ROM",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_serveme_fix",
+    "default_value": "1",
+    "flags": "CVAR_ROM",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_bigcoords",
+    "default_value": "",
+    "flags": "CVAR_SERVERINFO",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_pext_mvdsv_serversideweapon",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_extlimits",
+    "default_value": "2",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "filterban",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_maxvelocity",
+    "default_value": "2000",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_gravity",
+    "default_value": "800",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_stopspeed",
+    "default_value": "100",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_maxspeed",
+    "default_value": "320",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_spectatormaxspeed",
+    "default_value": "500",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_accelerate",
+    "default_value": "10",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_airaccelerate",
+    "default_value": "10",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_antilag",
+    "default_value": "",
+    "flags": "CVAR_SERVERINFO",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_antilag_no_pred",
+    "default_value": "",
+    "flags": "CVAR_SERVERINFO",
+    "on_change": "",
+    "description": "\"negative\" cvar so it doesn't show on serverinfo for no reason"
+  },
+  {
+    "name": "sv_antilag_projectiles",
+    "default_value": "",
+    "flags": "CVAR_SERVERINFO",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_wateraccelerate",
+    "default_value": "10",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_friction",
+    "default_value": "4",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_waterfriction",
+    "default_value": "4",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "pm_ktjump",
+    "default_value": "1",
+    "flags": "CVAR_SERVERINFO",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "pm_bunnyspeedcap",
+    "default_value": "",
+    "flags": "CVAR_SERVERINFO",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "pm_slidefix",
+    "default_value": "",
+    "flags": "CVAR_SERVERINFO",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "pm_airstep",
+    "default_value": "",
+    "flags": "CVAR_SERVERINFO",
+    "on_change": "OnChange_pm_airstep",
+    "description": ""
+  },
+  {
+    "name": "pm_pground",
+    "default_value": "",
+    "flags": "CVAR_SERVERINFO|CVAR_ROM",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "pm_rampjump",
+    "default_value": "",
+    "flags": "CVAR_SERVERINFO",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sys_nostdout",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sys_extrasleep",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sys_nostdout",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sys_sleep",
+    "default_value": "8",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_spectalk",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_sayteam_to_spec",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_mapcheck",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_minping",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_maxping",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_enable_cmd_minping",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_kickuserinfospamtime",
+    "default_value": "3",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_kickuserinfospamcount",
+    "default_value": "300",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_maxuploadsize",
+    "default_value": "1048576",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_downloadchunksperframe",
+    "default_value": "2",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_voip",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_voip_record",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_voip_echo",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_debug_weapons",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_debug_usercmd",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_debug_antilag",
+    "default_value": "0",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  },
+  {
+    "name": "sv_maxpitch",
+    "default_value": "80",
+    "flags": "0",
+    "on_change": "OnChange_sv_maxpitch",
+    "description": ""
+  },
+  {
+    "name": "sv_minpitch",
+    "default_value": "-70",
+    "flags": "0",
+    "on_change": "OnChange_sv_minpitch",
+    "description": ""
+  },
+  {
+    "name": "vm_rtChecks",
+    "default_value": "1",
+    "flags": "",
+    "on_change": "",
+    "description": ""
+  }
+]

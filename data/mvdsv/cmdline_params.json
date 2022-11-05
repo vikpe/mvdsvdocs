@@ -1,0 +1,30 @@
+[
+  {
+    "name": "cheats",
+    "description": "EnableCheats"
+  },
+  {
+    "name": "enablelocalcommand",
+    "description": "EnableLocalCommand"
+  },
+  {
+    "name": "democache",
+    "description": "DemoCacheArgument"
+  },
+  {
+    "name": "progtype",
+    "description": "ProgTypeArgument"
+  },
+  {
+    "name": "minmemory",
+    "description": "UseMinimumMemory"
+  },
+  {
+    "name": "heapsize",
+    "description": "HeapSizeMemoryKB"
+  },
+  {
+    "name": "mem",
+    "description": "HeapSizeMemoryMB"
+  }
+]
