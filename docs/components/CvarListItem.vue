@@ -8,6 +8,6 @@ export default {
 </script>
 
 <template>
-  <strong>{{ cvar.name }}</strong> <code v-if="cvar.default_value" i>default: {{ cvar.default_value }}</code>
+  <strong>{{ cvar.name }}</strong> <code>default: "{{ cvar.default_value }}"</code>
   <div v-if="cvar.description">{{ cvar.description }}</div>
 </template>
