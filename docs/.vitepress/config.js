@@ -14,6 +14,7 @@ export default defineConfig({
       }
     },
     themeConfig: {
+      siteTitle: false,
       logo: '/assets/img/mvdsv_logo.png',
       nav: [
         { text: 'Getting started', link: '/info/getting-started' },
