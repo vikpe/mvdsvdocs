@@ -1,5 +1,5 @@
 ---
-outline: [1,5]
+aside: false
 ---
 
 <script setup>
