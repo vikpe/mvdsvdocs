@@ -19,16 +19,4 @@ hero:
     - theme: alt
       text: Documentation
       link: /docs
-
-features:
-  - title: Foo
-    details: bar
-
 ---
-
-<style>
-:root {
-  --vp-c-brand: #207cd3;
-  --vp-c-brand-light: #409cf3;
-}
-</style>
