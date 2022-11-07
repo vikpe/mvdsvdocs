@@ -1,6 +1,6 @@
 ---
 layout: home
-titleTemplate: a modern QuakeWorld client
+titleTemplate: QuakeWorld server
 
 hero:
   //name: foo
